@@ -1,0 +1,16 @@
+Django>=4.2
+djangorestframework
+psycopg2-binary
+python-dotenv
+celery
+redis
+playwright
+requests
+gunicorn
+
+# Опционально, если используешь CORS или фильтрацию
+django-cors-headers
+django-filter
+
+# Если есть фронтенд авторизация/регистрация
+djoser
